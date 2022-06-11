@@ -1,0 +1,42 @@
+[
+    {
+        "text":"APP DEVELOPMENT",
+        "url":"/service/appdevelopment"
+        
+    },
+    {
+        "text":"WEB DEVELOPMENT",
+        "url":"/service/webdevelopment"
+        
+    },
+    {
+        "text":"AUTOMATE BUSSINESS PROCESS",
+        "url":"/service/automatebussinessprocess"
+        
+    },
+    {
+        "text":"ECOMMERCE SOLUTION",
+        "url":"/service/ecommercesolution"
+        
+    },
+    {
+        "text":"HIRE DEVELOPERS TEAM",
+        "url":"/service/hiredeveloperseteam"
+        
+    },
+    {
+        "text":"SEO SERVICES",
+        "url":"/service/seoservices"
+        
+    },
+    {
+        "text":"ENTERPRISE SOFTWARE DEVELOPMENT",
+        "url":"/service/enterprisesoftware"
+        
+    },
+    {
+        "text":"UI/UX DESIGN",
+        "url":"/service/uiuxdesign"
+        
+    }
+]
