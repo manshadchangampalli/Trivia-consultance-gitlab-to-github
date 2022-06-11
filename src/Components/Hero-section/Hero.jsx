@@ -33,7 +33,7 @@ function Hero({isPara,isButton,heading,bgText,page}) {
             <BgAnim text={bgText.text}/>
         :""}
             <Navbar/>
-        {/* <!-- main sectin it iclude the heading and the image  --> */}
+        {/* <!-- main sectin it iclude the heading and the image ha  --> */}
         <div className="main-section">
             <aside className="left-section">
                 <h1 style={style}>{heading}</h1>
