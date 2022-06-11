@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Button from '../button/Button'
 import Dropdown from './Dropdown'
 import './navbar.scss'
+import Logo from '../../Assets/Images/Logo/trivia-logo.gif'
 
 
 
@@ -22,21 +23,21 @@ function Navbar() {
     const scroll = useSelector(state => state.scrollValue)
     return (
         <nav>
-        <div style={scroll>30?{background:"white"}:{background:"transparent"}} className="nav-wraper">
+        <div style={{background:"#000a2c"}} className="nav-wraper">
         {/* logo */}
         <div className="logo">
-            <h1>LOGO</h1>
+            <img src={Logo} alt="" />
         </div>
         {/* <!-- nav-items  --> */}
         <div className="nav-items">
-            <Link  style={scroll>30?{color:"black"}:{color:"white"}} className="nav-link" to="/"><p>Home</p></Link>
+            <Link  style={{color:"white"}} className="nav-link" to="/"><p>Home</p></Link>
             {/* <!-- its include the dropdown also --> */}
             <li className="nav-link" href="#service">
-                <a  style={scroll>30?{color:"black"}:{color:"white"}} href="#service"><p>Service <Arrow/> </p></a>
+                <a  style={{color:"white"}} href="#service"><p>Service <Arrow/> </p></a>
                 <Dropdown/>
             </li>
-            <a  style={scroll>30?{color:"black"}:{color:"white"}} className="nav-link" href=""><p>Pricing</p></a>
-            <a  style={scroll>30?{color:"black"}:{color:"white"}} className="nav-link" href=""><p>Blog</p></a>
+            <a  style={{color:"white"}} className="nav-link" href=""><p>Pricing</p></a>
+            <a  style={{color:"white"}} className="nav-link" href=""><p>Blog</p></a>
             {/* <!-- contact-button  --> */}
             <Link to="/contactus">
                 <Button

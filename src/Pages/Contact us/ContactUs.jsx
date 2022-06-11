@@ -25,7 +25,7 @@ function ContactUs() {
                 page={"contact"}
                 heading="Contact us"
             />
-            {/* <Maps/> */}
+            <Maps/>
             <ContactForms/>
             <Footer/>
         </>
